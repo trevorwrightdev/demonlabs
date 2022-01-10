@@ -9,7 +9,7 @@ const LinkItem = ({ title, link, linkName }) => {
     return (
         <div className={styles.linkItem}>
             <p className={styles.linkItemTitle}>{title}</p>
-            <a style={underlined ? {textDecoration: 'underline'} : {}} onMouseEnter={() => setUnderlined(true)} onMouseOut={() => setUnderlined(false)} rel="noopener noreferrer" target="_blank" className={styles.linkItemLink} href={link}>{linkName}</a>
+            <a onClick={() => setUnderlined(false)} style={underlined ? {textDecoration: 'underline'} : {}} onMouseEnter={() => setUnderlined(true)} onMouseOut={() => setUnderlined(false)} rel="noopener noreferrer" target="_blank" className={styles.linkItemLink} href={link}>{linkName}</a>
         </div>
     )
 }

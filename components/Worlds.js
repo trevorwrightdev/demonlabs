@@ -10,6 +10,7 @@ const Worlds = () => {
         <div className={styles.worlds}>
             <p className={styles.worldsTitle}>worlds:</p> 
             <a 
+                onClick={() => setUnderlined(false)}
                 className={styles.worldsItem} 
                 rel="noopener noreferrer" target="_blank" href='https://supercyborgs.io' 
                 style={underlined ? {textDecoration: 'underline'} : {}} 
