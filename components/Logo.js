@@ -1,4 +1,4 @@
-import logoImage from '../public/images/demonlabslogotransparent.png'
+import logoImage from '../public/images/demonlabslogo.png'
 
 import Image from 'next/image'
 
