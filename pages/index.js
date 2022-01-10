@@ -1,7 +1,7 @@
 import Meta from '../components/Meta'
 import Box from '../components/Box'
 import Worlds from '../components/Worlds'
-import Twitter from '../components/LinkItem'
+import LinkItem from '../components/LinkItem'
 
 import { motion } from 'framer-motion'
 
@@ -33,7 +33,8 @@ export default function Home() {
             <motion.h1 initial='down' animate='up' variants={shakeVariant}><span className={styles.small}>name: </span>DEMON LABS</motion.h1>
             <p className={styles.desc}>desc: Demon Labs develops stylish and polished games for NFT projects.</p>
             <Worlds />
-            <Twitter />
+            <LinkItem title={'twitter:'} linkName={'@demonlabsio'}/>
+            <LinkItem title={'contact:'} linkName={'devs@demonlabs.io'}/>
         </Box>  
       </div>
     </>

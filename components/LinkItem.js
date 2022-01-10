@@ -1,10 +1,10 @@
 import styles from '../styles/Home.module.css'
 
-const LinkItem = () => {
+const LinkItem = ({ title, link, linkName }) => {
     return (
         <div className={styles.linkItem}>
-            <p className={styles.linkItemTitle}>twitter:</p>
-            <a className={styles.linkItemLink} href="">@demonlabsio</a>
+            <p className={styles.linkItemTitle}>{title}</p>
+            <a className={styles.linkItemLink} href={link}>{linkName}</a>
         </div>
     )
 }
