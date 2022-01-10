@@ -8,9 +8,9 @@ const Worlds = () => {
 
     return (
         <div className={styles.worlds}>
-            <p>worlds:</p> 
+            <p className={styles.worldsTitle}>worlds:</p> 
             <a 
-                className={styles.neonCity} 
+                className={styles.worldsItem} 
                 rel="noopener noreferrer" target="_blank" href='https://supercyborgs.io' 
                 style={underlined ? {textDecoration: 'underline'} : {}} 
                 onMouseEnter={() => setUnderlined(true)} 
