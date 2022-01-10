@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Faithful';
+	src: local('Faithful'), url('../public/fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  }
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,4 +12,5 @@
 html {
   background-color: red;
   font-size: 16px;
+  font-family: Faithful, sans-serif;
 }
