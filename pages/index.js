@@ -35,7 +35,7 @@ export default function Home() {
             <motion.h1 initial='down' animate='up' variants={shakeVariant}><span className={styles.small}>name: </span>DEMON LABS</motion.h1>
             <p className={styles.desc}>desc: Demon Labs develops stylish and polished games for NFT projects.</p>
             <Worlds />
-            <LinkItem link={'https://twitter.com/demon_labs'} title={'twitter:'} linkName={'@demonlabsio'}/>
+            <LinkItem link={'https://twitter.com/demon_labs'} title={'twitter:'} linkName={'@demon_labs'}/>
             <LinkItem link={'mailto: devs@demonlabs.io'} title={'contact:'} linkName={'devs@demonlabs.io'}/>
         </Box>  
       </div>
