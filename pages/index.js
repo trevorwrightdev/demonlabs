@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <html lang='en' class='notranslate' translate='no'>
+    <html lang='en' className='notranslate' translate='no'>
     <Meta />
     <div className={styles.container}>
       <Box />
