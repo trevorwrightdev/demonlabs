@@ -1,5 +1,5 @@
 import Meta from '../components/Meta'
-
+import Box from '../components/Box'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -7,8 +7,9 @@ export default function Home() {
     <>
     <Meta />
     <div className={styles.container}>
-      
+      <Box />
     </div>
     </>
   )
 }
+
