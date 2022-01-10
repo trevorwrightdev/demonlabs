@@ -14,8 +14,9 @@ const Box = () => {
                 visible: {
                     scale: 1,
                     opacity: 1,
+                    y: '-30vh',
                     transition: {
-                        delay: 0.4
+                        duration: 1,
                     }
                 }
             }}>
