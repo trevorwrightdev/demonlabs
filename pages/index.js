@@ -4,12 +4,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <>
+    <html lang='en' class='notranslate' translate='no'>
     <Meta />
     <div className={styles.container}>
       <Box />
     </div>
-    </>
+    </html>
   )
 }
 
