@@ -8,16 +8,16 @@
 .box {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
   height: 80%;
   width: 80%;
   border: solid;
-  border-width: 0.5rem;
+  border-width: 0.4rem;
   border-radius: 1rem;
+  padding: 1rem;
 }
 
-.boxHeader {
-  font-size: 2.5rem;
+.desc {
+  margin: 3% 0;
 }
