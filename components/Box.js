@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 const Box = () => {
     return (
         <div className={styles.box}>
-            <motion.div initial='hidden' animate='visible' variants={{
+            <motion.div className={styles.motionDiv} initial='hidden' animate='visible' variants={{
                 hidden: {
                     scale: .8,
                     opacity: 0,
@@ -14,13 +14,22 @@ const Box = () => {
                 visible: {
                     scale: 1,
                     opacity: 1,
-                    y: '-30vh',
                     transition: {
-                        duration: 1,
-                    }
+                        type: 'spring',
+                        delay: 0.4,
+                        stiffness: 60,
+                    },
                 }
             }}>
                 <h1 className={styles.boxHeader}>DEMON LABS</h1>
+            </motion.div>
+            <motion.div initial='hidden' animate='visible' variants={{
+                hidden: {
+                    opacity: 0,
+                    
+                }
+            }}>
+                <h2>Loading worlds...</h2>
             </motion.div>
         </div>
     )
