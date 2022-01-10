@@ -4,8 +4,6 @@ import Worlds from '../components/Worlds'
 import LinkItem from '../components/LinkItem'
 import Logo from '../components/Logo'
 
-import { motion } from 'framer-motion'
-
 import styles from '../styles/Home.module.css'
 
 
@@ -13,26 +11,13 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  const shakeVariant = {
-    down: {
-        y: '3%',
-    },
-    up: {
-        y: '-3%',
-        transition: {
-            yoyo: Infinity,
-            duration: 0.1,
-        }
-    }
-}
-
   return (
     <>
       <Meta />
       <div className={styles.container}>
         <Box>
             <Logo />
-            <motion.h1 initial='down' animate='up' variants={shakeVariant}><span className={styles.small}>name: </span>DEMON LABS</motion.h1>
+            <h1><span className={styles.small}>name: </span>DEMON LABS</h1>
             <p className={styles.desc}>desc: Demon Labs develops stylish and polished games for NFT projects.</p>
             <Worlds />
             <LinkItem link={'https://twitter.com/demon_labs'} title={'twitter:'} linkName={'@demon_labs'}/>
