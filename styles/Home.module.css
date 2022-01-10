@@ -17,6 +17,10 @@
   padding: 1rem;
 }
 
+.logo {
+  margin-bottom: 1.5%;
+}
+
 .desc {
   margin: 3% 0;
   text-align: center;
