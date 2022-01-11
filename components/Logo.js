@@ -8,13 +8,13 @@ const Logo = () => {
 
     const shakeVariant = {
         down: {
-            y: '1.5%',
+            y: '3%',
         },
         up: {
-            y: '-1.5%',
+            y: '-3%',
             transition: {
                 yoyo: Infinity,
-                duration: 0.1,
+                duration: 0.5,
             }
         }
     }
