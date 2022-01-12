@@ -17,7 +17,7 @@ export default function Home() {
         <Box>
             <Logo />
             <h1><span className={styles.small}>name: </span>DEMON LABS</h1>
-            <p className={styles.desc}>desc: Born as indie developers. Building games for the metaverse.</p>
+            <p className={styles.desc}>desc: Born as indie developers. Helping the community build web3 projects and developing games for the metaverse.</p>
             <Worlds />
             <LinkItem link={'https://twitter.com/demon_labs'} title={'twitter:'} linkName={'@demon_labs'}/>
             <LinkItem link={'mailto: devs@demonlabs.io'} title={'contact:'} linkName={'devs@demonlabs.io'}/>
