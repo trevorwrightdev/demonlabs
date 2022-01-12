@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-const Meta = ({ title }) => {
+const Meta = () => {
     return (
         <Head>
             <meta name='google' content='notranslate' />
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-            <title>{title}</title>
+            <title>DEMON LABS</title>
             <meta name="description" content="
             We're creating the new world. 
             " />

@@ -13,7 +13,6 @@ export default function Home() {
 
   return (
     <>
-      <Meta title='DEMON LABS'/>
       <div className={styles.container}>
         <Box>
             <Logo />
